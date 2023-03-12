@@ -1,8 +1,15 @@
+import React from "react";
+
+import {AppContext} from './context/contextApi'
+
 function App() {
   return (
-    <div className="App">
+    <AppContext>
+      <div className="App">
         <h1 className="text-8xl">Hello World!</h1>
-    </div>
+      </div>
+    </AppContext>
+
   );
 }
 
